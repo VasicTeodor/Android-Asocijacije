@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="UNESITE RECI:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addWord"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="@android:color/holo_blue_light" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:inputType="text"
+            android:layout_height="25dp"
+            android:textSize="18dp"
+            android:id="@+id/addWordIn"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120dp"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+        <Button
+            android:text="Dodaj"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:id="@+id/btnAddWord" />
+    </LinearLayout>
+    <TextView
+        android:text="Preostalo reci za unos:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordsLeft"
+        android:textSize="12dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/holo_green_light" />
+    <Button
+        android:text="Nazad"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnNext3"
+        android:layout_marginTop="240dp" />
+    <Button
+        android:text="Odustani"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnCancel3" />
+</LinearLayout>

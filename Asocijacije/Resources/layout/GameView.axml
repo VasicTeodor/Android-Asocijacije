@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:keepScreenOn="true" >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="TIM:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamOn"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"
+            android:textAlignment="gravity"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_light" />
+        <TextView
+            android:text="IME TIMA"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamOnNow"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:text="00"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeOn"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="right"
+            android:textAlignment="gravity"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_green_light" />
+    </LinearLayout>
+    <TextView
+        android:text="REC"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/wordOn"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white" />
+    <Button
+        android:text="Start"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnSlRec"
+        android:layout_marginTop="115dp" />
+    <Button
+        android:text="Odustajem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnQuit" />
+</LinearLayout>
